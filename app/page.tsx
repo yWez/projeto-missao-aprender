@@ -83,7 +83,7 @@ function HighConversionCTA({ compact = false, light = false }: { compact?: boole
         whileHover={reduceMotion ? undefined : { y: -2, scale: 1.01 }}
         whileTap={reduceMotion ? undefined : { scale: 0.985 }}
       >
-        <span>TOQUE AQUI — QUERO COMEÇAR NOSSA PRIMEIRA MISSÃO</span>
+        <span>TOQUE AQUI: QUERO COMEÇAR NOSSA PRIMEIRA MISSÃO</span>
         <ArrowRight aria-hidden="true" size={21} strokeWidth={2.4} />
       </motion.a>
       <p className={`cta-microcopy ${light ? "cta-microcopy--light" : ""}`}>
@@ -221,10 +221,10 @@ function FounderStory() {
         <Reveal className="founder__copy">
           <span className="section-kicker">UMA MÃE, UMA ROTINA REAL</span>
           <h2>“Eu queria entender melhor meu filho antes de apenas repetir a mesma ordem mais uma vez.”</h2>
-          <p>Ana é mãe solo de um filho atípico. Sua autoridade não vem de uma credencial clínica — vem da experiência vivida dentro de casa, entre pedidos, repetições, negociações e a vontade diária de compreender melhor o próprio filho.</p>
+          <p>Ana é mãe solo de um filho atípico. Sua autoridade não vem de uma credencial clínica. Ela vem da experiência vivida dentro de casa, entre pedidos, repetições, negociações e a vontade diária de compreender melhor o próprio filho.</p>
           <p>Ao observar a rotina, percebeu que muitas situações difíceis começavam antes do momento de maior tensão: na transição, na mudança inesperada e na dificuldade de visualizar o agora, o depois e o fim.</p>
           <blockquote>“O Projeto Missão Aprender nasceu dentro da minha própria casa, da tentativa diária de tornar nossa rotina menos baseada em repetir e mais baseada em mostrar.”</blockquote>
-          <small>O alcance do perfil representa comunidade e trajetória — não número de clientes ou prova de resultado do produto.</small>
+          <small>O alcance do perfil representa comunidade e trajetória, não número de clientes ou prova de resultado do produto.</small>
         </Reveal>
       </div>
     </section>
@@ -260,7 +260,7 @@ function InstagramCommunity() {
             <span><Heart aria-hidden="true" size={15} /> Informação e inclusão</span>
             <span><Users aria-hidden="true" size={15} /> Conteúdo para famílias</span>
           </div>
-          <small>O alcance do perfil representa comunidade e trajetória — não número de clientes, vendas ou garantia de resultado do produto.</small>
+          <small>O alcance do perfil representa comunidade e trajetória, não número de clientes, vendas ou garantia de resultado do produto.</small>
         </Reveal>
       </div>
     </section>
@@ -347,7 +347,7 @@ function GuaranteeCard() {
 const faqs = [
   ["Meu filho não segue nenhuma rotina. Serve para ele?", "O sistema não começa tentando organizar o dia inteiro. Você escolhe uma única situação, monta de 2 a 4 passos e observa como a criança responde."],
   ["E se meu filho não entender os desenhos?", "Você pode trocar imagens, simplificar a sequência e utilizar fotos reais da criança, dos objetos, das pessoas ou dos ambientes da própria casa."],
-  ["E se ele não aceitar de primeira?", "A proposta é observar, repetir e ajustar — sem prometer uma resposta específica. É possível diminuir etapas, trocar imagens e testar outra forma de apresentação."],
+  ["E se ele não aceitar de primeira?", "A proposta é observar, repetir e ajustar, sem prometer uma resposta específica. É possível diminuir etapas, trocar imagens e testar outra forma de apresentação."],
   ["Preciso imprimir tudo?", "Não. O projeto inclui recursos para impressão, versão econômica e possibilidades de uso diretamente no celular."],
   ["Preciso entender de autismo ou ter formação profissional?", "Não para utilizar o material como apoio à rotina familiar. Ainda assim, ele não substitui avaliação ou orientação individualizada de profissionais habilitados."],
   ["Isso é terapia?", "Não. É um material educacional e de apoio à rotina. Não é tratamento e não substitui acompanhamento médico ou terapêutico."],
@@ -444,7 +444,7 @@ export default function Home() {
     { icon: Images, title: "Cartas Visuais", text: "Recursos prontos para apoiar a montagem das Missões Visuais.", tag: "O QUE MOSTRAR" },
     { icon: Route, title: "Método VAC", text: "Use a lógica Ver → Antecipar → Concluir durante a aplicação.", tag: "COMO APLICAR" },
     { icon: LayoutGrid, title: "6 Missões Prontas", text: "Modelos para momentos frequentes como tela, banho, saída e sono." },
-    { icon: CalendarDays, title: "Plano Primeira Missão — 7 Dias", text: "Escolha, observe, monte, apresente, repita, ajuste e decida como continuar." },
+    { icon: CalendarDays, title: "Plano Primeira Missão: 7 Dias", text: "Escolha, observe, monte, apresente, repita, ajuste e decida como continuar." },
     { icon: Video, title: "Vídeos curtos de demonstração", text: "Veja o mecanismo aplicado de forma visual e direta." },
   ];
 
@@ -472,7 +472,7 @@ export default function Home() {
               <span><CheckCircle2 aria-hidden="true" size={17} /> Adaptável à criança</span>
             </div>
             <HighConversionCTA />
-            <p className="hero__context">Criado para famílias que querem começar com clareza — sem tentar organizar o dia inteiro de uma vez.</p>
+            <p className="hero__context">Criado para famílias que querem começar com clareza, sem tentar organizar o dia inteiro de uma vez.</p>
           </Reveal>
           <Reveal className="hero__media"><ProductHeroVisual /></Reveal>
         </div>
@@ -484,7 +484,7 @@ export default function Home() {
           <Reveal className="video-strip__copy">
             <span className="section-kicker">A ROTINA INVISÍVEL</span>
             <h2>Você vê a sequência inteira. Seu filho pode estar vendo apenas a interrupção.</h2>
-            <p>Quando o dia depende só da voz do adulto, “vamos tomar banho” pode chegar como um fim inesperado da tela — sem mostrar com clareza o que acontece depois.</p>
+            <p>Quando o dia depende só da voz do adulto, “vamos tomar banho” pode chegar como um fim inesperado da tela, sem mostrar com clareza o que acontece depois.</p>
             <div className="mini-flow" aria-label="Ciclo da rotina reativa"><span>ordem</span><ArrowRight aria-hidden="true" size={16} /><span>repetição</span><ArrowRight aria-hidden="true" size={16} /><strong>tensão</strong></div>
             <ArrowDown className="flow-down" aria-hidden="true" size={20} />
             <div className="mini-flow mini-flow--positive" aria-label="Ciclo da rotina visual"><span>visualizar</span><ArrowRight aria-hidden="true" size={16} /><span>antecipar</span><ArrowRight aria-hidden="true" size={16} /><strong>concluir</strong></div>
@@ -502,7 +502,7 @@ export default function Home() {
           <div className="pain__grid">
             <PainCard number="01" title="Tela → banho" text="O fim da atividade chega sem uma referência clara do próximo passo." />
             <PainCard number="02" title="Brincar → guardar" text="A sequência existe na cabeça do adulto, mas ainda não está visível." />
-            <PainCard number="03" title="Casa → saída" text="A mudança começa antes da porta — e pode ser preparada antes." />
+            <PainCard number="03" title="Casa para saída" text="A mudança começa antes da porta e pode ser preparada antes." />
           </div>
           <Reveal className="belief-card">
             <span>UMA NOVA FORMA DE COMEÇAR</span>
@@ -532,7 +532,7 @@ export default function Home() {
         <div className="container">
           <Reveal className="section-heading section-heading--center">
             <span className="section-kicker">O MÉTODO PRÓPRIO</span>
-            <h2>VAC — Ver, Antecipar e Concluir</h2>
+            <h2>VAC: Ver, Antecipar e Concluir</h2>
             <p>Você não recebe arquivos soltos. Recebe uma lógica simples para observar a situação, mostrar o próximo passo e dar uma referência clara de encerramento.</p>
           </Reveal>
           <div className="vac__grid">
@@ -569,7 +569,7 @@ export default function Home() {
             <div><ArrowRight aria-hidden="true" /><h3>O próximo passo é antecipado</h3><p>A mudança pode ser apresentada antes do momento de transição.</p></div>
             <div><CheckCircle2 aria-hidden="true" /><h3>O fim ganha uma referência</h3><p>“Concluído” mostra visualmente que a pequena missão terminou.</p></div>
           </Reveal>
-          <p className="logic__disclaimer">Essa é a lógica operacional do sistema. A resposta é individual e a aplicação deve ser observada e ajustada — sem garantia de mudança comportamental.</p>
+          <p className="logic__disclaimer">Essa é a lógica operacional do sistema. A resposta é individual e a aplicação deve ser observada e ajustada, sem garantia de mudança comportamental.</p>
         </div>
       </section>
 
@@ -588,12 +588,12 @@ export default function Home() {
                 height={1024}
                 loading="lazy"
               />
-              <span>REPRESENTAÇÃO VISUAL DO CONTEÚDO</span>
+              <span>VISÃO COMPLETA DO QUE VOCÊ RECEBE</span>
             </div>
             <div className="contents-showcase__copy">
               <span className="section-kicker">POR DENTRO DO MATERIAL</span>
-              <h3>Você entende o sistema e já consegue enxergar como aplicar.</h3>
-              <p>Guias, cartas, sequências e versões para celular trabalham juntos para transformar uma situação real em poucos passos visuais.</p>
+              <h3>Veja o que você recebe e como cada peça se conecta.</h3>
+              <p>O guia, os cartões, as sequências e a versão para celular formam um conjunto prático para você sair da dúvida e montar sua primeira missão visual.</p>
               <div>
                 <span><CheckCircle2 aria-hidden="true" size={16} /> Pronto para imprimir</span>
                 <span><CheckCircle2 aria-hidden="true" size={16} /> Adaptável com fotos</span>
@@ -604,7 +604,7 @@ export default function Home() {
           <div className="deliverables__grid">{deliverables.map((item) => <ProductDeliverable key={item.title} {...item} />)}</div>
           <Reveal className="seven-days">
             <span>PLANO PRIMEIRA MISSÃO</span>
-            <h3>7 dias para escolher, montar, testar e ajustar — não para prometer um comportamento.</h3>
+            <h3>7 dias para escolher, montar, testar e ajustar. Não para prometer um comportamento.</h3>
             <div className="seven-days__track">{["Escolher", "Observar", "Montar", "Apresentar", "Repetir", "Ajustar", "Continuar"].map((day, i) => <div key={day}><span>{i + 1}</span><strong>{day}</strong></div>)}</div>
           </Reveal>
         </div>
@@ -619,7 +619,7 @@ export default function Home() {
 
       <section className="audience section-pad">
         <div className="container">
-          <Reveal className="section-heading section-heading--center"><span className="section-kicker">PARA QUEM É — E PARA QUEM NÃO É</span><h2>Um apoio prático, com uma promessa responsável.</h2></Reveal>
+          <Reveal className="section-heading section-heading--center"><span className="section-kicker">PARA QUEM É E PARA QUEM NÃO É</span><h2>Um apoio prático, com uma promessa responsável.</h2></Reveal>
           <div className="audience__grid">
             <Reveal className="audience-card audience-card--yes">
               <CheckCircle2 aria-hidden="true" size={30} /><h3>Faz sentido para você que…</h3>
@@ -664,7 +664,7 @@ export default function Home() {
           <Reveal>
             <Sparkles aria-hidden="true" size={31} />
             <span className="section-kicker">COMECE PELO QUE MAIS PESA HOJE</span>
-            <h2>De reagir à tensão para antecipar a rotina — uma missão por vez.</h2>
+            <h2>De reagir à tensão para antecipar a rotina, uma missão por vez.</h2>
             <p>O sistema se adapta à criança. A criança não precisa se adaptar ao sistema.</p>
             <HighConversionCTA />
           </Reveal>
