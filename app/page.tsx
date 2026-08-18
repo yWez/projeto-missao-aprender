@@ -233,34 +233,34 @@ function FounderStory() {
 
 function InstagramCommunity() {
   return (
-    <section className="instagram-community section-pad section-pad--small" aria-labelledby="instagram-community-title">
+    <section className="instagram-community section-pad" aria-labelledby="instagram-community-title">
       <div className="container instagram-community__grid">
         <Reveal className="instagram-community__visual">
           <div className="instagram-community__image">
             <img
-              src="images/instagram-community-proof.webp"
-              alt="Imagem destacando que cerca de 115 mil pessoas acompanham o perfil @autismopara_pais"
-              width={1080}
-              height={1350}
+              src="images/instagram-profile-clean-v2.webp"
+              alt="Apresentação limpa do perfil Autismo para Pais, com 115 mil seguidores, sem elementos da interface do celular"
+              width={1003}
+              height={1568}
               loading="lazy"
             />
-            <span>PERFIL OFICIAL • @AUTISMOPARA_PAIS</span>
           </div>
+          <a className="instagram-community__image-link" href="https://www.instagram.com/autismopara_pais/" target="_blank" rel="noreferrer">
+            <Camera aria-hidden="true" size={17} />
+            Ver perfil oficial
+          </a>
         </Reveal>
 
         <Reveal className="instagram-community__copy">
-          <a className="instagram-community__handle" href="https://www.instagram.com/autismopara_pais/" target="_blank" rel="noreferrer">
-            <Camera aria-hidden="true" size={20} /><strong>@autismopara_pais</strong>
-          </a>
           <span className="section-kicker">UMA COMUNIDADE QUE JÁ EXISTE</span>
           <h2 id="instagram-community-title">Cerca de 115 mil pessoas acompanham a nossa página.</h2>
-          <p>A @autismopara_pais reúne pais, mães e cuidadores em torno de informação, inclusão e materiais práticos para o dia a dia.</p>
-          <p>O Projeto Missão Aprender nasce dentro desse mesmo universo: olhar para situações reais da rotina e transformar informação em um começo possível.</p>
+          <p className="instagram-community__lead">A @autismopara_pais reúne famílias que buscam informação, inclusão e recursos práticos para o dia a dia.</p>
+          <p>O Projeto Missão Aprender nasce desse contato com situações reais da rotina, transformando informação em um começo possível.</p>
           <div className="instagram-community__pill-row">
             <span><Heart aria-hidden="true" size={15} /> Informação e inclusão</span>
             <span><Users aria-hidden="true" size={15} /> Conteúdo para famílias</span>
           </div>
-          <small>O alcance do perfil representa comunidade e trajetória, não número de clientes, vendas ou garantia de resultado do produto.</small>
+          <small>O alcance do perfil representa comunidade e trajetória. Não representa número de clientes, vendas ou garantia de resultado do produto.</small>
         </Reveal>
       </div>
     </section>
