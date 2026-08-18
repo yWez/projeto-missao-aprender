@@ -2,11 +2,14 @@
 
 Landing page do produto digital **Rotina Mais Leve**, desenvolvido para apresentar o Sistema Missões Visuais e o método VAC.
 
-## Conteúdo
+## Publicação
 
-- Landing page responsiva
-- Mockups do produto
-- Demonstração das missões visuais
-- Seções de oferta, garantia e perguntas frequentes
+A página é gerada automaticamente pelo GitHub Actions e publicada pelo GitHub Pages a cada atualização da branch `main`.
 
-> O link de checkout e a VSL permanecem como placeholders até a definição dos endereços oficiais.
+## Antes da abertura das vendas
+
+- Substituir o placeholder pelo link oficial do checkout.
+- Inserir a VSL oficial.
+- Substituir termos, política de privacidade e depoimentos pelos materiais definitivos.
+
+O alcance do perfil `@autismopara_pais` é apresentado como contexto de comunidade, não como prova de resultado do produto.
