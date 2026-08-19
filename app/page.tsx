@@ -36,7 +36,7 @@ import {
 
 // Substitua pelo link oficial do checkout antes da abertura das vendas.
 const checkoutHref = "#oferta";
-const ctaLabel = "Quero começar a primeira missão por R$37";
+const ctaLabel = "Começar a primeira missão!";
 
 function Reveal({ children, className = "" }: { children: ReactNode; className?: string }) {
   const reduceMotion = useReducedMotion();
