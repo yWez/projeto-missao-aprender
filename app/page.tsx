@@ -36,6 +36,7 @@ import {
 
 // Substitua pelo link oficial do checkout antes da abertura das vendas.
 const checkoutHref = "#oferta";
+const ctaLabel = "Quero começar a primeira missão por R$37";
 
 function Reveal({ children, className = "" }: { children: ReactNode; className?: string }) {
   const reduceMotion = useReducedMotion();
@@ -56,7 +57,7 @@ function Reveal({ children, className = "" }: { children: ReactNode; className?:
 function StickyTopBar() {
   return (
     <div className="founder-bar">
-      <p><span>TURMA FUNDADORA</span> Condição inicial de validação: <strong>R$37</strong></p>
+      <p><span>TURMA FUNDADORA</span> Preço especial da Turma Fundadora: <strong>R$37</strong></p>
     </div>
   );
 }
@@ -83,7 +84,7 @@ function HighConversionCTA({ compact = false, light = false }: { compact?: boole
         whileHover={reduceMotion ? undefined : { y: -2, scale: 1.01 }}
         whileTap={reduceMotion ? undefined : { scale: 0.985 }}
       >
-        <span>TOQUE AQUI: QUERO COMEÇAR NOSSA PRIMEIRA MISSÃO</span>
+        <span>{ctaLabel}</span>
         <ArrowRight aria-hidden="true" size={21} strokeWidth={2.4} />
       </motion.a>
       <p className={`cta-microcopy ${light ? "cta-microcopy--light" : ""}`}>
@@ -397,7 +398,7 @@ function PricingCard() {
         </Reveal>
 
         <Reveal className="price-card">
-          <span className="price-card__tag">CONDIÇÃO DE VALIDAÇÃO INICIAL</span>
+          <span className="price-card__tag">Preço especial da Turma Fundadora</span>
           <p>Preço oficial</p>
           <del>R$47</del>
           <div className="price-card__price"><small>por</small><strong>R$37</strong></div>
